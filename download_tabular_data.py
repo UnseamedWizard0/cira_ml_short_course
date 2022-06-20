@@ -12,7 +12,7 @@ from urllib.request import urlretrieve
 
 LOCAL_DIRECTORY_NAME = 'data'
 ONLINE_TABULAR_FILE_NAME = (
-    'https://storage.googleapis.com/track_data_ncar_ams_3km_csv_small/'
+'https://drive.google.com/file/d/1zmcl-7AjLQwK2q08WZoO3WtIKr8Oa3cv/view?usp=sharing'
     'track_data_ncar_ams_3km_csv_small.tar.gz'
 )
 
