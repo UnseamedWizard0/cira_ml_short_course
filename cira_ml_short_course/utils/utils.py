@@ -8,6 +8,7 @@ import time
 import calendar
 import numpy
 import pandas
+import tensorflow as tf
 import matplotlib.colors
 from matplotlib import pyplot
 import keras
@@ -1948,8 +1949,8 @@ def setup_dense_net(
     )
 
     model_object.compile(
-        loss=keras.losses.binary_crossentropy,
-        optimizer=keras.optimizers.Adam(),
+        loss=tf.keras.losses.binary_crossentropy,
+        optimizer=tf.keras.optimizers.Adam(),
         metrics=METRIC_FUNCTION_LIST
     )
 
